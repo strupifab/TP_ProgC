@@ -5,9 +5,13 @@ int main() {
 
   int compteur = 5 ;
   for (int i = 0; i < compteur; ++i) {
-    printf("la variable i vaut %d\n", i)
+    for (int j = i; j <= i; ++j) {
+      printf("*");
+    }
+    printf("\n");
   }
 
 }
+
 
 
