@@ -5,7 +5,7 @@ int main() {
 
   char *charvar = "ma charvar";
   short shortvar = 10;
-  inf intvar = 12;
+  int intvar = 12;
   signed int signedintvar = -80;
   unsigned int unsignedintvar = 300;
   signed long int signedlongintvar = -500000;
@@ -30,5 +30,6 @@ int main() {
   printf("\ndoubledoublevar = %Lf",doubledoublevar);
 
 }
+
 
 
