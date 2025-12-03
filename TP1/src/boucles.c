@@ -4,7 +4,7 @@
 int main() {
 
   int compteur = 5 ;
-  if ( compteur < 10 ) {
+  if ( compteur <= 10 ) {
 
     // Boucle for
     // **************************
@@ -24,4 +24,5 @@ int main() {
 
   
 }
+
 
