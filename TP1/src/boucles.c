@@ -31,12 +31,13 @@ int main() {
        printf("\n");
        i++;
     }
- 
-    else
-    printf("Erreur : compteur > 10");
+    
+  }
+  else printf("Erreur : compteur > 10");
 
   
 }
+
 
 
 
