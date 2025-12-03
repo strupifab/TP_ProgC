@@ -5,13 +5,14 @@ int main() {
 
   int compteur = 5 ;
   for (int i = 0; i < compteur; ++i) {
-    for (int j = i; j <= i; ++j) {
+    for (int j = 0; j <= i; ++j) {
       printf("*");
     }
     printf("\n");
   }
 
 }
+
 
 
 
