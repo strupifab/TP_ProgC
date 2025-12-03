@@ -7,13 +7,14 @@ int main() {
   for (int i = 0; i < compteur; ++i) {
     for (int j = 0; j <= i; ++j) {
       //printf("*");
-      if (i >= 2 && j >= 1 && j < i) printf("#");
+      if (i >= 2 && i < (compteur-1) &&  j >= 1 && j < i) printf("#");
       else printf("*");
      }
     printf("\n");
   }
 
 }
+
 
 
 
