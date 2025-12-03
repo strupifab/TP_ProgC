@@ -4,6 +4,9 @@
 int main() {
 
   int compteur = 5 ;
+  if ( compteur > 10 ) break;
+
+  // Boucle for
   for (int i = 0; i < compteur; ++i) {
     for (int j = 0; j <= i; ++j) {
       //printf("*");
@@ -13,10 +16,6 @@ int main() {
     printf("\n");
   }
 
+ 
+  
 }
-
-
-
-
-
-
