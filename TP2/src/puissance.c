@@ -10,13 +10,14 @@ Vous devez réaliser ce calcul sans utiliser la fonction pow() de la bibliothèq
 int main() {
 
   int a = 2;
-  int b = 5;
+  int b = 3;
   int puissance = 1;
   
   for (int i=0;i<b;i++) {
        puissance *= a;
   }
   
-  printf("\n %d ^ %d = %d \n",a,b,puissance);
+  printf("\n%d ^ %d = %d \n",a,b,puissance);
   
 }
+
