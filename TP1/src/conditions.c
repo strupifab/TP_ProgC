@@ -23,11 +23,13 @@ int main() {
     if ( (i % 5 == 0) || ( i % 7 == 0) ) somme += i;
     if (i % 11 == 0 ) continue;
     if ( somme > 5000 ) break;
+    printf("\n Compteur = %i", i);
   }
-
+  printf("\n----------------------");
   printf("\nSomme = %i", somme);
   printf("\n");
 
 }
+
 
 
