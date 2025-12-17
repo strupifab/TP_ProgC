@@ -30,6 +30,6 @@ int main() {
 
    printf( "\n");   
   }
-  printf("\nGénération de la pyramide est terminée !");
+  printf("\nFin de génération de la pyramide !");
     
 }
