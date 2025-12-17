@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <string.h>
 /*
 Écrivez un programme en C nommé conditions.c qui effectue les tâches suivantes :
@@ -17,12 +17,12 @@ int main() {
 
   int somme = 0;  
   int compteur = 1000;
-    
+  
   for (int i = 1; i <= compteur; ++i) {
     // Si nombre divisible par 5 ou 7 
     if ( (i % 5 == 0) || ( i % 7 == 0) ) somme += i;
-    if (i % 11 == 0 ) continue;
-    if ( somme > 5000 ) break;
+    else if (i % 11 == 0 ) continue;
+    else if ( somme > 5000 ) break;
     printf("\n Compteur = %i", i);
   }
   printf("\n----------------------");
@@ -30,6 +30,7 @@ int main() {
   printf("\n");
 
 }
+
 
 
 
