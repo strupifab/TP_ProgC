@@ -21,9 +21,12 @@ int main() {
       printf("Num ligne = %d\n",i);
       int numcomposant = i + (i-1);
       for (int j=i;j<n;j++) { 
-          printf("*");
+          printf(" ");
+          for (int k=0;k<numcomposant;k++) {
+            printf("n");
+          }
       }
-      printf("%d (numcomposant %d) ",i,numcomposant);
+      //printf("%d (numcomposant %d) ",i,numcomposant);
 
    printf( "\n");   
   }
