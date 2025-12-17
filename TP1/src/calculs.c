@@ -39,7 +39,7 @@ int main() {
         break;
     case '%':
         retour = num1 % num2;
-        printf( "%d % %d = %d\n", num1, num2, retour);
+        printf( "%d modulo %d = %d\n", num1, num2, retour);
         break;
     case '&':
         retour = num1 & num2;
@@ -58,6 +58,7 @@ int main() {
   printf("\n");
 
 }
+
 
 
 
