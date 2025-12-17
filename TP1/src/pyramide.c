@@ -12,9 +12,8 @@ Exemple pour n = 5
 */
 
 int main() {
-
-  int n = 10;
-  
+  int n = 5;
+  printf("Début de la génération de la pyramide de taille %d \n", n);
   for (int i=1;i<=n;i++) {
 
       //printf("Num ligne = %d\n",i);
@@ -30,5 +29,6 @@ int main() {
 
    printf( "\n");   
   }
-  
+  printf("\n Génération de la pyramide est terminée !");
+    
 }
