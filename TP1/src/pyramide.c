@@ -23,7 +23,9 @@ int main() {
           printf(" ");
       }
       printf("%d",i);
-  
+
+
+   printf( "\n");   
   }
 
 
@@ -34,5 +36,5 @@ int main() {
  */
   
   //printf("\nConversion de %d en binaire = ", numdecimal);
-  //printf( "\n");
+  
 }
