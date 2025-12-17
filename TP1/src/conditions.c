@@ -23,13 +23,14 @@ int main() {
     if ( (i % 5 == 0) || ( i % 7 == 0) ) somme += i;
     else if (i % 11 == 0 ) continue;
     else if ( somme > 5000 ) break;
-    printf("\n Compteur = %i et somme = %somme", i,somme);
+    printf("\n Compteur = %i et somme = %i", i,somme);
   }
   printf("\n----------------------");
   printf("\nSomme = %i", somme );
   printf("\n");
 
 }
+
 
 
 
