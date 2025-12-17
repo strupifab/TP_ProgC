@@ -9,7 +9,6 @@ Exemple pour n = 5
   12321   (5) 3 (e=2)
  1234321  (7) 4 (e=1)
 123454321 (9) 5 (e=0)
-
 */
 
 int main() {
@@ -19,7 +18,7 @@ int main() {
   for (int i=1;i<=n;i++) {
 
       printf("Num ligne = %d\n",i);
-      int numcomposant = i + (i-1);
+      //int numcomposant = i + (i-1);
       for (int j=i;j<n;j++) { 
           printf(" ");
       }
@@ -27,24 +26,9 @@ int main() {
       for (int l=1;l<i;l++) printf("%d",l);
       for (int l=i;l>=1;l--) printf("%d",l);
 
-      /*
-      for (int k=1;k<=numcomposant;k++) {
-         for (int l=1;l<=i;l++) printf("%d",l);
-      }
-      */
-
       //printf("%d (numcomposant %d) ",i,numcomposant);
 
    printf( "\n");   
   }
-
-
-    /*
-      for (int i=0;i<=sizeof numbinaire / sizeof *numbinaire;i++) {
-        numbinaire[i] = -1;
-      }
- */
-  
-  //printf("\nConversion de %d en binaire = ", numdecimal);
   
 }
