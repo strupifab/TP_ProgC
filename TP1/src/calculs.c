@@ -22,7 +22,7 @@ int main() {
   int num2 = 0b1111110;
     
   int retour;
-  char op = '|';    //'+', '-', '*', '/', '%', '&', '|', '~'
+  char op = '~';    //'+', '-', '*', '/', '%', '&', '|', '~'
 
   switch ( op ) {
     case '+':
@@ -62,6 +62,7 @@ int main() {
   printf("\n");
 
 }
+
 
 
 
