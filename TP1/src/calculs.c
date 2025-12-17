@@ -15,8 +15,8 @@ Testez votre programme avec différentes valeurs de num1, num2, et op pour vous 
 */
 int main() {
 
-  int num1;
-  int num2;
+  int num1 = 10;
+  int num2 = 5;
   int retour;
   char op = '+';    //'+', '-', '*', '/', '%', '&', '|', '~'.
 
@@ -31,7 +31,8 @@ int main() {
         retour = num1 + num2;
   }
 
-  printf( "%d %d %d = %d\n", num1, op, num2, retour);
+  printf( "%d %s %d = %d\n", num1, op, num2, retour);
   printf("\n");
 
 }
+
