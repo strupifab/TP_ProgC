@@ -24,6 +24,9 @@ int main() {
     if (i % 11 == 0 ) continue;
     if ( somme > 5000 ) break;
   }
+
   printf("\nSomme = %i", somme);
+  printf("\n);
 
 }
+
