@@ -18,7 +18,7 @@ int main() {
   int num1 = 10;
   int num2 = 5;
   int retour;
-  char op = '/';    //'+', '-', '*', '/', '%', '&', '|', '~'
+  char op = '%';    //'+', '-', '*', '/', '%', '&', '|', '~'
 
   switch ( op ) {
     case '+':
@@ -58,6 +58,7 @@ int main() {
   printf("\n");
 
 }
+
 
 
 
