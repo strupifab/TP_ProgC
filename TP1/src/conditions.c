@@ -26,7 +26,8 @@ int main() {
   }
 
   printf("\nSomme = %i", somme);
-  printf("\n);
+  printf("\n");
 
 }
+
 
