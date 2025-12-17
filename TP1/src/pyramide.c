@@ -20,7 +20,7 @@ int main() {
 
       printf("Num ligne = %d\n",i);
       int numcomposant = i + (i-1);
-      or (int j=i;j<=n;j++) { 
+      for (int j=i;j<=n;j++) { 
           printf("*");
       }
       printf("%d (numcomposant %d) ",i,numcomposant);
