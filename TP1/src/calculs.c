@@ -50,7 +50,6 @@ int main() {
         printf( "%d | %d = %d\n", num1, num2, retour);
         break;
     case "~":
-        //retour = num1 ~ num2;
         printf( "~%d = %d\n", num1, ~num1);
         printf( "~%d = %d\n", num2, ~num2);
         break;
@@ -59,6 +58,7 @@ int main() {
   printf("\n");
 
 }
+
 
 
 
