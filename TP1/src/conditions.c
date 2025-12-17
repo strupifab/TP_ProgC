@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 /*
 Écrivez un programme en C nommé conditions.c qui effectue les tâches suivantes :
@@ -30,6 +30,7 @@ int main() {
   printf("\n");
 
 }
+
 
 
 
