@@ -4,11 +4,11 @@
 Génération d'une pyramide de nombres
 Objectif : Écrivez un programme nommé pyramide.c pour générer et afficher une pyramide de nombres en utilisant des boucles imbriquées. Ce motif utilise des nombres dans un motif spécifique.
 Exemple pour n = 5
-    1     (1) 1
-   121    (3) 2 
-  12321   (5) 3 
- 1234321  (7) 4
-123454321 (9) 5
+    1     (1) 1 (e=4)
+   121    (3) 2 (e=3)
+  12321   (5) 3 (e=2)
+ 1234321  (7) 4 (e=1)
+123454321 (9) 5 (e=0)
 
 */
 
@@ -20,7 +20,7 @@ int main() {
 
       printf("Num ligne = %d\n",i);
       int numcomposant = i + (i-1);
-      for (int j=i;j<=n;j++) { 
+      for (int j=i;j<n;j++) { 
           printf("*");
       }
       printf("%d (numcomposant %d) ",i,numcomposant);
