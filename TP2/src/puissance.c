@@ -20,7 +20,3 @@ int main() {
   printf("\n %d ^ %d = %d \n",a,b,puissance);
   
 }
-
-
-
-
