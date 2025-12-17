@@ -23,9 +23,15 @@ int main() {
       for (int j=i;j<n;j++) { 
           printf(" ");
       }
-      for (int k=0;k<numcomposant;k++) {
-         printf("n");
-       }
+
+      for (int l=1;l<=i;l++) printf("%d",l);
+      for (int l=i;l>1;l--) printf("%d",l);
+
+      /*
+      for (int k=1;k<=numcomposant;k++) {
+         for (int l=1;l<=i;l++) printf("%d",l);
+      }
+      */
 
       //printf("%d (numcomposant %d) ",i,numcomposant);
 
