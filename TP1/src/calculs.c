@@ -18,38 +18,47 @@ int main() {
   int num1 = 10;
   int num2 = 5;
   int retour;
-  char op = '-';    //'+', '-', '*', '/', '%', '&', '|', '~'.
+  char op = '-';    //'+', '-', '*', '/', '%', '&', '|', '~'
 
   switch ( op ) {
     case '+':
         retour = num1 + num2;
+        printf( "%d + %d = %d\n", num1, num2, retour);
         break;
     case '-':
         retour = num1 - num2;
+        printf( "%d - %d = %d\n", num1, num2, retour);
         break;
     case '*':
         retour = num1 * num2;
+        printf( "%d * %d = %d\n", num1, num2, retour);
         break;
     case '/':
         retour = num1 / num2;
+        printf( "%d / %d = %d\n", num1, num2, retour);
         break;
     case '%':
         retour = num1 % num2;
+        printf( "%d % %d = %d\n", num1, num2, retour);
         break;
     case '&':
         retour = num1 & num2;
+        printf( "%d & %d = %d\n", num1, num2, retour);
         break;
     case '|':
         retour = num1 | num2;
+        printf( "%d | %d = %d\n", num1, num2, retour);
         break;
-    case '~':
-        retour = num1 ~ num2;
+    case "~":
+        //retour = num1 ~ num2;
+        printf( "~%d = %d\n", num1, ~num1);
+        printf( "~%d = %d\n", num2, ~num2);
         break;
   }
 
-  printf( "%d %c %d = %d\n", num1, op, num2, retour);
   printf("\n");
 
 }
+
 
 
