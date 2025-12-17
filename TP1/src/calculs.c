@@ -15,14 +15,13 @@ Testez votre programme avec différentes valeurs de num1, num2, et op pour vous 
 */
 int main() {
 
-  //int num1 = 10;
-  //int num2 = 5;
-
-  int num1 = 0b1010101;
-  int num2 = 0b1111110;
+  int num1 = 10;
+  int num2 = 5;
+  //int num1 = 0b1010101;
+  //int num2 = 0b1111110;
     
   int retour;
-  char op = '~';    //'+', '-', '*', '/', '%', '&', '|', '~'
+  char op = '+';    //'+', '-', '*', '/', '%', '&', '|', '~'
 
   switch ( op ) {
     case '+':
@@ -62,6 +61,7 @@ int main() {
   printf("\n");
 
 }
+
 
 
 
