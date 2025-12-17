@@ -19,7 +19,9 @@ int main() {
 
   int num1 = 10;
   //int num1 = 0b1010101;
+  printf( "%d\n", num1[0]);  
   printf( "~%d = %d\n", num1, ~num1);
   printf("\n");
 
 }
+
