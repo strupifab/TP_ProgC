@@ -17,7 +17,7 @@ int main() {
   
   for (int i=1;i<=n;i++) {
 
-      printf("Num ligne = %d\n",i);
+      //printf("Num ligne = %d\n",i);
       //int numcomposant = i + (i-1);
       for (int j=i;j<n;j++) { 
           printf(" ");
