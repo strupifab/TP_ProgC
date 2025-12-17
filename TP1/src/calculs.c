@@ -17,6 +17,10 @@ int main() {
 
   int num1 = 10;
   int num2 = 5;
+
+  int num1 = 0b1010101;
+  int num2 = 0b1111110;
+    
   int retour;
   char op = '&';    //'+', '-', '*', '/', '%', '&', '|', '~'
 
@@ -58,6 +62,7 @@ int main() {
   printf("\n");
 
 }
+
 
 
 
