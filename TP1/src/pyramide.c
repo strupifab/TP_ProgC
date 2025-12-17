@@ -22,10 +22,11 @@ int main() {
       int numcomposant = i + (i-1);
       for (int j=i;j<n;j++) { 
           printf(" ");
-          for (int k=0;k<numcomposant;k++) {
-            printf("n");
-          }
       }
+      for (int k=0;k<numcomposant;k++) {
+         printf("n");
+       }
+
       //printf("%d (numcomposant %d) ",i,numcomposant);
 
    printf( "\n");   
