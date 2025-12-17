@@ -24,8 +24,8 @@ int main() {
           printf(" ");
       }
 
-      for (int l=1;l<=i;l++) printf("%d",l);
-      for (int l=i;l>1;l--) printf("%d",l);
+      for (int l=1;l<i;l++) printf("%d",l);
+      for (int l=i;l>=1;l--) printf("%d",l);
 
       /*
       for (int k=1;k<=numcomposant;k++) {
