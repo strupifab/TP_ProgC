@@ -22,13 +22,13 @@ int main() {
 
   switch ( op ) {
     case '+':
-        retour = num1 + num2
+        retour = num1 + num2;
         break;
     case '-':
-        retour = num1 - num2
+        retour = num1 - num2;
         break;
     default:
-        retour = num1 + num2
+        retour = num1 + num2;
   }
 
   printf( "%d %d %d = %d\n", num1, op, num2, retour);
