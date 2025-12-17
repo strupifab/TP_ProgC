@@ -17,6 +17,7 @@ int main() {
        puissance *= a;
   }
   
-  printf("%d",puissance);
+  printf("\n %d",puissance);
   
 }
+
